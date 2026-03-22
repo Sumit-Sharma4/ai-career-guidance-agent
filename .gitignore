@@ -1,0 +1,25 @@
+# 🔒 Environment file (VERY IMPORTANT)
+backend/.env
+
+# 🐍 Python cache (you already have these folders)
+__pycache__/
+*.pyc
+
+# 🧠 Ignore all cache inside subfolders
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# 📦 Virtual environment (if you create later)
+venv/
+env/
+.venv/
+
+# 🧾 Logs
+*.log
+
+# 🗂️ OS files
+.DS_Store
+Thumbs.db
+
+# 🛠️ VS Code settings (optional)
+.vscode/
