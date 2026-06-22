@@ -1,15 +1,15 @@
-# 🔒 Environment file (VERY IMPORTANT)
+# 🔒 Environment file
 backend/.env
 
-# 🐍 Python cache (you already have these folders)
+# 🐍 Python cache
 __pycache__/
 *.pyc
 
-# 🧠 Ignore all cache inside subfolders
+# 🧠 all cache inside subfolders
 backend/**/__pycache__/
 backend/**/*.pyc
 
-# 📦 Virtual environment (if you create later)
+# 📦 Virtual environment
 venv/
 env/
 .venv/
@@ -21,5 +21,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# 🛠️ VS Code settings (optional)
+# 🛠️ VS Code settings 
 .vscode/
