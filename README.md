@@ -79,7 +79,6 @@ Try these in the chat UI:
 - Chat history sidebar (like ChatGPT)
 - Streaming responses (typing animation)
 - Voice input support
-- Deployment (Render / Railway / Vercel)
 - Authentication system
 ---
 
