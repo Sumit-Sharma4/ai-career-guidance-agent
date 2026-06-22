@@ -23,7 +23,6 @@ class UserInput(BaseModel):
 def home():
     return {"message": f"{PROJECT_NAME} is running."}
 
-
 @app.post("/career-guide/")
 def career_guide(data: UserInput):
     return run_career_agent(data.message, data.user_id)
